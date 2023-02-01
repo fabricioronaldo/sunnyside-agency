@@ -1,5 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header__button {
+  border: none;
+  background: transparent;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__link {
+  display: inline;
+}
+
+@media screen and (min-width: 1024) {
+  .header {
+    background: hsl(198deg, 62%, 26%);
+  }
+  .header .header__link {
+    display: inline;
+  }
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
 }/*# sourceMappingURL=style.css.map */

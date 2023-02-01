@@ -12,10 +12,10 @@
 
 ## Bkg
 
-- [ ] Adicionar a logo da empresa.
-- [ ] Criar menu principal - mobile.
+- [X] Adicionar a logo da empresa.
+- [X] Criar menu principal - mobile.
 - [ ] Criar menu principal - Descktop.
-- [ ] Adicionar banner principal.
+- [X] Adicionar banner principal.
 - [ ] Adicionar titulo do banner principal.
 - [ ] Adicionar galeria de cards.
 - [ ] Adicionar descrições na galeria de cards.
