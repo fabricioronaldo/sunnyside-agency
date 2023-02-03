@@ -5,5 +5,23 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
+    text-align: center;
+
+    div {
+        position: relative;
+        top: 150px;
+        img {
+            margin-top: 2rem;
+        }
+    }
     
 };
+
+.main__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+
+};
+

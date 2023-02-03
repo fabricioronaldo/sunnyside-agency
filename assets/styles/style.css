@@ -45,4 +45,19 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
+  text-align: center;
+}
+.main div {
+  position: relative;
+  top: 150px;
+}
+.main div img {
+  margin-top: 2rem;
+}
+
+.main__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */

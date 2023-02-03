@@ -16,7 +16,7 @@
 - [X] Criar menu principal - mobile.
 - [ ] Criar menu principal - Descktop.
 - [X] Adicionar banner principal.
-- [ ] Adicionar titulo do banner principal.
+- [X] Adicionar titulo do banner principal.
 - [ ] Adicionar galeria de cards.
 - [ ] Adicionar descrições na galeria de cards.
 - [ ] Adicionar área dos clientes.
