@@ -39,12 +39,12 @@ body {
   }
 }
 .main {
-  height: 100vh;
+  height: 65vh;
   width: 100vw;
   background-image: url("../images/mobile/image-header.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 .main div {
@@ -60,4 +60,41 @@ body {
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 900;
+}
+
+.card {
+  text-align: center;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title {
+  padding: 2rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.card__descriptions {
+  padding: 0 2rem;
+  font-family: "Barlow", sans-serif;
+  color: hsl(232deg, 10%, 55%);
+  line-height: 1.8rem;
+  font-size: 1rem;
+}
+
+.card__link {
+  display: block;
+  padding: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+.card__link span {
+  padding: 0 0.5rem;
+  border-bottom: 8px solid yellow;
 }/*# sourceMappingURL=style.css.map */
