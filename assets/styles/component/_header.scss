@@ -20,13 +20,29 @@
 }
     
 
-@media screen and (min-width:1024) {
+@media screen and (min-width:1024px) {
     .header {
-        background: $dark-blue;
-    
-        .header__link {
-            display: inline;
+        background: transparent;
+
+        .header__button{
+            display: none;
         }
         
+        .header__menu{
+            display: block;
+            
+            .header__link {
+                display: inline;
+                color: $white;
+                padding: 1rem;
+                font-family: $barlow;
+            }
+            .contact{
+                background: $white;
+                color: $very-dark;
+                text-transform: uppercase;
+                border-radius: 25px;
+            }
+        }
     }       
 }

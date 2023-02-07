@@ -17,9 +17,9 @@
 - [ ] Criar menu principal - Descktop.
 - [X] Adicionar banner principal.
 - [X] Adicionar titulo do banner principal.
-- [ ] Adicionar galeria de cards.
-- [ ] Adicionar descrições na galeria de cards.
-- [ ] Adicionar área dos clientes.
+- [X] Adicionar galeria de cards.
+- [X] Adicionar descrições na galeria de cards.
+- [X] Adicionar área dos clientes.
 - [ ] Adicionar titulo área dos clientes. 
 - [ ] Adicionar Imagem dos clientes.
 - [ ] Adicionar o testemunho.

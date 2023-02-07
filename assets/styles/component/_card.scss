@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+.card__image-desktop {
+    display: none;
+}
+
 .card__title {
     padding: 2rem;
     font-family: $fraunces;
@@ -35,4 +39,31 @@
             //box-shadow: 0 10px 10px -3px yellow;
             border-bottom: 8px solid yellow;
         }
+}
+
+@media screen and (min-width:1024px) {
+    
+    .card {
+        width: 100%;
+        
+        .card__content {
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .content__box{
+            width: 50%;
+        }
+
+        .card__image{
+            display: none;
+        }
+
+        .card__image-desktop{
+            width: 100%;
+            display: block;
+
+        }
+    }
 }
