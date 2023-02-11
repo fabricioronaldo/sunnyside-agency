@@ -88,32 +88,36 @@ body {
 }
 
 .item-5 {
-  position: relative;
-}
-.item-5 .card__title {
   width: 100%;
-  position: absolute;
-  color: hsl(198deg, 62%, 26%);
-  top: 360px;
+  height: 600px;
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
 }
-.item-5 .card__descriptions {
-  position: absolute;
-  top: 460px;
-  color: hsl(198deg, 62%, 26%);
+.item-5 div {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.item-5 .card__title, .item-5 .card__descriptions {
+  color: hsl(167deg, 40%, 24%);
 }
 
 .item-6 {
-  position: relative;
-}
-.item-6 .card__title {
   width: 100%;
-  position: absolute;
-  color: hsl(198deg, 62%, 26%);
-  top: 360px;
+  height: 600px;
+  background-image: url(../images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
 }
-.item-6 .card__descriptions {
-  position: absolute;
-  top: 460px;
+.item-6 div {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.item-6 .card__title, .item-6 .card__descriptions {
   color: hsl(198deg, 62%, 26%);
 }
 
@@ -174,16 +178,15 @@ body {
   }
   .card .card__content .item-5 {
     width: 100%;
+    height: 515px;
     background-image: url(../images/desktop/image-graphic-design.jpg);
-    background-position: center;
+    background-size: cover;
   }
-  .card .card__content .item-5 .card__title {
-    padding-top: 0rem;
-    color: hsl(167deg, 40%, 24%);
-  }
-  .card .card__content .item-5 .card__descriptions {
-    padding-bottom: 3rem;
-    color: hsl(167deg, 40%, 24%);
+  .card .card__content .item-6 {
+    width: 100%;
+    height: 515px;
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-size: cover;
   }
   .card .card__image {
     display: none;
@@ -204,4 +207,53 @@ body {
   .card .card__link {
     font-size: 1rem;
   }
+}
+.client {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.client h2 {
+  text-transform: uppercase;
+  color: hsl(210deg, 4%, 67%);
+  font-family: "Fraunces", serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 4rem 0;
+  letter-spacing: 5px;
+}
+.client .client__testimonials {
+  text-align: center;
+  padding: 2rem;
+}
+.client .client__testimonials img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.client .client__testimonials p {
+  padding: 2rem 0;
+  font-family: "Barlow", sans-serif;
+  color: hsl(232deg, 10%, 55%);
+}
+.client .client__testimonials h3 {
+  font-family: "Fraunces", serif;
+  padding: 1rem;
+}
+.client .client__testimonials h4 {
+  font-family: "Barlow", sans-serif;
+  color: hsl(210deg, 4%, 67%);
+  font-size: 0.9rem;
+}
+
+.galery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.galery .galery__image img {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */

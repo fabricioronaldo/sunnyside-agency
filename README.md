@@ -20,12 +20,12 @@
 - [X] Adicionar galeria de cards.
 - [X] Adicionar descrições na galeria de cards.
 - [X] Adicionar área dos clientes.
-- [ ] Adicionar titulo área dos clientes. 
-- [ ] Adicionar Imagem dos clientes.
-- [ ] Adicionar o testemunho.
-- [ ] Adicionar o nome dos clientes.
-- [ ] Adicionar galeria de imagens.
-- [ ] Adicionar as imagens na galeria.
+- [X] Adicionar titulo área dos clientes. 
+- [X] Adicionar Imagem dos clientes.
+- [X] Adicionar o testemunho.
+- [X] Adicionar o nome dos clientes.
+- [X] Adicionar galeria de imagens.
+- [X] Adicionar as imagens na galeria.
 - [ ] Adicionar titulo rodapé.
 - [ ] Adicionar links rodapé.
 - [ ] Adicionar rede social rodapé
