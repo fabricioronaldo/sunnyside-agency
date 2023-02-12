@@ -26,6 +26,6 @@
 - [X] Adicionar o nome dos clientes.
 - [X] Adicionar galeria de imagens.
 - [X] Adicionar as imagens na galeria.
-- [ ] Adicionar titulo rodapé.
-- [ ] Adicionar links rodapé.
-- [ ] Adicionar rede social rodapé
+- [X] Adicionar titulo rodapé.
+- [X] Adicionar links rodapé.
+- [X] Adicionar rede social rodapé
