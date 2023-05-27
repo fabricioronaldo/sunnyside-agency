@@ -30,6 +30,60 @@ body {
   display: inline;
 }
 
+.menu__mobile {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  background: #fff;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.mobile__active {
+  display: none;
+}
+
+.menu__mobile ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.menu__mobile ul li {
+  display: inline;
+  padding: 0.8rem;
+  z-index: 99;
+}
+
+.menu__mobile ul li a {
+  color: hsl(210, 4%, 67%);
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+}
+
+.menu__mobile ul li a:hover {
+  color: hsl(7, 99%, 70%);
+  text-decoration: underline;
+}
+
+.contact {
+  margin-top: 0.8rem;
+}
+
+.menu__mobile .contact a {
+  background: hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+}
+
+.menu__mobile .contact:hover {
+  color: hsl(7, 99%, 70%);
+}
+
 @media screen and (min-width: 1024px) {
   .header {
     background: transparent;
@@ -42,20 +96,25 @@ body {
   }
   .header .header__menu .header__link {
     display: inline;
-    color: hsl(0deg, 0%, 100%);
+  }
+  .header .header__menu .header__link a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
     padding: 1rem;
     font-family: "Barlow", sans-serif;
   }
-  .header .header__menu .contact {
-    background: hsl(0deg, 0%, 100%);
-    color: hsl(212deg, 27%, 19%);
+  .header .header__menu .contact a {
+    background: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
     text-transform: uppercase;
     border-radius: 25px;
+  }
+  .menu__mobile {
+    display: none;
   }
 }
 .main {
   height: 65vh;
-  width: 100vw;
   background-image: url("../images/mobile/image-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +160,7 @@ body {
   padding-bottom: 3rem;
 }
 .item-5 .card__title, .item-5 .card__descriptions {
-  color: hsl(167deg, 40%, 24%);
+  color: hsl(167, 40%, 24%);
 }
 
 .item-6 {
@@ -118,7 +177,7 @@ body {
   padding-bottom: 3rem;
 }
 .item-6 .card__title, .item-6 .card__descriptions {
-  color: hsl(198deg, 62%, 26%);
+  color: hsl(198, 62%, 26%);
 }
 
 .card__image {
@@ -139,7 +198,7 @@ body {
 .card__descriptions {
   padding: 0 2rem;
   font-family: "Barlow", sans-serif;
-  color: hsl(232deg, 10%, 55%);
+  color: hsl(232, 10%, 55%);
   line-height: 1.8rem;
   font-size: 1rem;
 }
@@ -217,7 +276,7 @@ body {
 }
 .client h2 {
   text-transform: uppercase;
-  color: hsl(210deg, 4%, 67%);
+  color: hsl(210, 4%, 67%);
   font-family: "Fraunces", serif;
   font-size: 1rem;
   text-align: center;
@@ -236,7 +295,7 @@ body {
 .client .client__testimonials p {
   padding: 2rem 0;
   font-family: "Barlow", sans-serif;
-  color: hsl(232deg, 10%, 55%);
+  color: hsl(232, 10%, 55%);
 }
 .client .client__testimonials h3 {
   font-family: "Fraunces", serif;
@@ -244,7 +303,7 @@ body {
 }
 .client .client__testimonials h4 {
   font-family: "Barlow", sans-serif;
-  color: hsl(210deg, 4%, 67%);
+  color: hsl(210, 4%, 67%);
   font-size: 0.9rem;
 }
 
@@ -276,7 +335,7 @@ body {
   }
 }
 .footer {
-  background: hsl(168deg, 34%, 41%);
+  background: hsl(168, 34%, 41%);
   text-align: center;
   padding: 4rem 0;
 }
@@ -292,7 +351,7 @@ body {
 .footer .footer__link ul li a {
   text-decoration: none;
   font-family: "Barlow", sans-serif;
-  color: hsl(167deg, 40%, 24%);
+  color: hsl(167, 40%, 24%);
 }
 .footer .footer__midia ul {
   display: flex;

@@ -14,19 +14,30 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
+        <div class="header">
         <img class="header__img" src="./assets/images/logo.svg" alt="Imagem do logotipo da empresa" />
 
         <button class="header__button"><img src="./assets/images/icon-hamburger.svg" alt=""></button>
 
         <nav class="header__menu">
             <ul>
-                <li class="header__link">About</li>
-                <li class="header__link">Services</li>
-                <li class="header__link">Projects</li>
-                <li class="header__link contact">Contact</li>
+                <li class="header__link"><a href="#">About</a></li>
+                <li class="header__link"><a href="#">Services</a></li>
+                <li class="header__link"><a href="#">Projects</a></li>
+                <li class="header__link contact" ><a href="#">Contact</a></li>
             </ul>
         </nav>
+    </div>
+        <div class="mobile__active menu__mobile">
+            <ul>
+                <li class="header__link"><a href="#">About</a></li>
+                <li class="header__link"><a href="#">Services</a></li>
+                <li class="header__link"><a href="#">Projects</a></li>
+                <li class="header__link contact"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
     </header>
     <main>
         <section class="main">
@@ -135,6 +146,7 @@
             </ul>
         </div>
     </footer>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
